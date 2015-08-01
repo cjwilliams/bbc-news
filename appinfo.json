@@ -5,7 +5,9 @@
   "companyName": "Chris Lewis",
   "versionCode": 3,
   "versionLabel": "1.3.0",
-  "capabilities": [ "configurable" ],
+  "capabilities": [
+    "configurable"
+  ],
   "watchapp": {
     "watchface": false
   },
@@ -34,5 +36,10 @@
         "file": "images/app_icon.png"
       }
     ]
-  }
+  },
+  "targetPlatforms": [
+    "aplite",
+    "basalt"
+  ],
+  "sdkVersion": "3"
 }
